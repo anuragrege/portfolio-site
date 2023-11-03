@@ -180,7 +180,7 @@ function App() {
         </div>
         <div className="contact-section">
           <form
-            action="https://formsubmit.co/anuragrege@gmail.com"
+            action="https://formsubmit.co/f8df3ad586785dd3d61880e2b92e0927"
             method="POST"
           >
             <div className="form-group">
