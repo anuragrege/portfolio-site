@@ -199,7 +199,8 @@ h1 {
 }
 #projects,
 #skills,
-#contact u {
+#contact,
+#exp u {
   color: #ffffff;
   text-underline-offset: 3px;
   text-decoration-thickness: 3px;
@@ -252,7 +253,8 @@ h1 {
   display: flex;
   align-items: center;
   width: calc(33.33% - 20px);
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
   font-size: 18px;
 }
 
@@ -375,8 +377,8 @@ textarea::placeholder {
   }
 }
 .App {
-  opacity: 0; /* Start with content hidden */
-  transition: opacity 1s; /* Fade-in duration */
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .App.hidden {
@@ -385,4 +387,99 @@ textarea::placeholder {
 
 .App.visible {
   opacity: 1;
+}
+
+.experience-section {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.experience-line {
+  width: 2px;
+  height: 1250px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 230px;
+}
+
+.bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  color: #ffffff;
+}
+
+.experience {
+  display: flex;
+  margin-right: 55%;
+  text-align: left;
+  margin-left: 20%;
+  margin-top: 80px;
+}
+
+.experience1 {
+  display: flex;
+  margin-left: 55%;
+  margin-top: 80px;
+  margin-right: 20%;
+}
+
+.experience-content {
+  flex: 1;
+  border: 2px solid #ffffff;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.left {
+  height: 24px;
+  width: 24px;
+  margin-left: 5px;
+}
+
+.expimg {
+  height: 72px;
+  width: 72px;
+  border-radius: 12px;
+  margin-left: 25%;
+}
+.experience-section h2 {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .experience-section {
+    padding: 10px;
+  }
+
+  .experience-line {
+    height: 2px;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .bullet {
+    display: none;
+  }
+
+  .experience,
+  .experience1 {
+    margin-left: 0;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+#exp u {
+  text-align: center;
+  font-size: 18px;
 }
