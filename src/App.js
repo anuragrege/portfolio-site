@@ -198,7 +198,6 @@ class App extends Component {
             <div className="experience-section">
               <div className="experience-line"></div>
               <div className="experience">
-                <div className="bullet"></div>
                 <div className="experience-content">
                   <h2>Global Talent Mentoring</h2>
                   <p>
@@ -218,7 +217,6 @@ class App extends Component {
                 </div>
               </div>
               <div className="experience1">
-                <div className="bullet"></div>
                 <div className="experience-content">
                   <h2>SCCSRM</h2>
                   <p>
@@ -236,7 +234,6 @@ class App extends Component {
                 </div>
               </div>
               <div className="experience">
-                <div className="bullet"></div>
                 <div className="experience-content">
                   <h2>Alexa Developers SRM</h2>
                   <p>
@@ -254,7 +251,6 @@ class App extends Component {
                 </div>
               </div>
               <div className="experience1">
-                <div className="bullet"></div>
                 <div className="experience-content">
                   <h2>WictroniX</h2>
                   <p>
