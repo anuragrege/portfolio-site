@@ -197,14 +197,16 @@ h1 {
 #awards,
 #home,
 #acad,
-#exp {
+#exp,
+#cah {
   scroll-margin-top: 100px;
 }
 #projects,
 #skills,
 #contact,
 #exp,
-#acad u {
+#acad,
+#cah u {
   color: #ffffff;
   text-underline-offset: 3px;
   text-decoration-thickness: 3px;
@@ -534,5 +536,73 @@ textarea::placeholder {
   .achievements-section {
     width: 100%;
     margin-bottom: 20px;
+  }
+}
+
+.certifications-section,
+.hackathons-section {
+  width: 100%;
+  background-color: #121212;
+  color: #ffffff;
+  padding: 20px;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.certifications-section {
+  display: flex;
+  text-align: center;
+}
+
+.certifications-section h2,
+.hackathons-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.certification img {
+  width: 300px;
+  height: 200px;
+}
+
+.certification p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.certification {
+  width: 50%;
+}
+
+ol {
+  list-style-type: decimal;
+  padding: 0;
+}
+
+ol li {
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .certifications-section,
+  .hackathons-section {
+    padding: 4px;
+  }
+
+  .certification {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .certification p {
+    font-size: 16px;
+  }
+
+  .hackathons-section h2 {
+    margin-top: 20px;
+  }
+
+  .hackathons-section ol li {
+    margin-left: 10px;
   }
 }
