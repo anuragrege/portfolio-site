@@ -148,6 +148,61 @@ class App extends Component {
                   View Project
                 </a>
               </div>
+
+              <div className="project">
+                <img src="/assets/img/pps.png" alt="Project 4" />
+                <h3>Timetable/Mess Menu Displayer</h3>
+                <p>
+                  Me and my teammate made an application that displays the mess
+                  menu, timetable of the students and thus calculates students'
+                  free time based on various inputs. Just with a few clicks, the
+                  user can easily see the timetable and the menu. This saves the
+                  user the time to take out his batch timetable and match with
+                  his timetable. It also enables the user to see the mess menu
+                  without requiring to open his phone to see the photo captured
+                  of the menu.{" "}
+                </p>
+                <a
+                  href="https://drive.google.com/file/d/1seD3vyo57U61rX4sYuL8DBFTcyEy5erv/view?usp=sharing"
+                  target="blank"
+                >
+                  View Project
+                </a>
+              </div>
+
+              <div className="project">
+                <img src="/assets/img/oodp.png" alt="Project 5" />
+                <h3>Restaurant Billing/Employee Management System</h3>
+                <p>
+                  I developed an application that generates the bill of the
+                  customer and also can access and edit employee information{" "}
+                </p>
+                <a
+                  href="https://drive.google.com/file/d/1dxuv-369MRPdIxVijYK70nEeWg1bP22Y/view?usp=sharing"
+                  target="blank"
+                >
+                  View Project
+                </a>
+              </div>
+
+              <div className="project">
+                <img src="/assets/img/sih.png" alt="Project 6" />
+                <h3>DeHazer Algorithm: SIH 2023</h3>
+                <p>
+                  Me and my teammates have devised an innovative solution for
+                  de-hazing video footage for firefighters in indoor fires. It
+                  consists of a ML model which takes input as the hazed video
+                  feed and gives a real time dehazed output so that firefighters
+                  can carry out thir operation easily. We have qualified for the
+                  Nationals 2023.{" "}
+                </p>
+                <a
+                  href="https://drive.google.com/file/d/1c2fG02_wNwtBthpBbXaLOK0gFOjpvrU2/view?usp=sharing"
+                  target="blank"
+                >
+                  View Project
+                </a>
+              </div>
             </div>
           </section>
           <section id="skills" className="section">
