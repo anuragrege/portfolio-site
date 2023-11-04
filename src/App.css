@@ -195,13 +195,16 @@ h1 {
 #contact,
 #academic,
 #awards,
-#home {
+#home,
+#acad,
+#exp {
   scroll-margin-top: 100px;
 }
 #projects,
 #skills,
 #contact,
-#exp u {
+#exp,
+#acad u {
   color: #ffffff;
   text-underline-offset: 3px;
   text-decoration-thickness: 3px;
@@ -479,4 +482,57 @@ textarea::placeholder {
 #exp u {
   text-align: center;
   font-size: 18px;
+}
+.academic-awards-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #121212;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.academic-section,
+.awards-section,
+.achievements-section {
+  flex: 1;
+  text-align: left;
+  border: 2px solid #ffffff;
+  margin-right: 20px;
+}
+
+.cgpa,
+.average-cgpa,
+.awards-list,
+.achievements-list {
+  margin: 20px;
+}
+.academic-awards-section u {
+  text-decoration-color: #ffffff;
+}
+#acad h2 {
+  font-size: 22px;
+}
+
+#acad ul {
+  list-style: square;
+  padding: 0;
+}
+
+#acad ul li {
+  margin: 20px 0;
+  margin-left: 14px;
+}
+
+@media (max-width: 768px) {
+  .academic-awards-section {
+    flex-direction: column;
+  }
+
+  .academic-section,
+  .awards-section,
+  .achievements-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
