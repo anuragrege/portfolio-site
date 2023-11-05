@@ -196,12 +196,7 @@ class App extends Component {
                   can carry out thir operation easily. We have qualified for the
                   Nationals 2023.{" "}
                 </p>
-                <a
-                  href="https://drive.google.com/file/d/1c2fG02_wNwtBthpBbXaLOK0gFOjpvrU2/view?usp=sharing"
-                  target="blank"
-                >
-                  View Project
-                </a>
+                <a href="#projects">Project Confidential</a>
               </div>
             </div>
           </section>
@@ -375,6 +370,27 @@ class App extends Component {
                       src="/assets/icons/wictroniX.png"
                       className="expimg"
                       alt="Experience 4"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div className="experience">
+                <div className="experience-content">
+                  <h2>MLSA SRM</h2>
+                  <p>
+                    Associate Technical Lead at Microsoft Learn Student
+                    Ambassadors SRM, heading the Webdev Domain. Part of the core
+                    team.
+                  </p>
+                  <p>SEPTEMBER 2023-Present</p>
+                  <a
+                    href="https://in.linkedin.com/company/mlsa-srm"
+                    target="blank"
+                  >
+                    <img
+                      src="/assets/icons/mlsa.png"
+                      className="expimg5"
+                      alt="Experience 5"
                     />
                   </a>
                 </div>

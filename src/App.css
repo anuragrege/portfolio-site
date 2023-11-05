@@ -403,7 +403,7 @@ textarea::placeholder {
 
 .experience-line {
   width: 2px;
-  height: 1250px;
+  height: 1750px;
   background-color: #ffffff;
   position: absolute;
   left: 50%;
@@ -453,6 +453,12 @@ textarea::placeholder {
 .expimg {
   height: 72px;
   width: 72px;
+  border-radius: 12px;
+  margin-left: 25%;
+}
+.expimg5 {
+  height: 72px;
+  max-width: 140px;
   border-radius: 12px;
   margin-left: 25%;
 }
