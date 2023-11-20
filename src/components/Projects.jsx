@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const upanimation = {
   hidden: { opacity: 0, y: 100 },
-  visible: { opacity: 1, y: 0, transition: { duration: 2 } },
+  visible: { opacity: 1, y: 0, transition: { duration: 1.5 } },
 };
 
 const Projects = () => {
