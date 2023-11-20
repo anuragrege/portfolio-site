@@ -6,11 +6,6 @@ const leftanimation = {
   visible: { opacity: 1, x: 0, transition: { duration: 1.5 } },
 };
 
-const rightanimation = {
-  hidden: { opacity: 0, x: -50 },
-  visible: { opacity: 1, x: 0, transition: { duration: 1.5 } },
-};
-
 const Skills = () => {
   return (
     <section id="skills" className="section">
@@ -57,7 +52,7 @@ const Skills = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          variants={rightanimation}
+          variants={leftanimation}
           className="skill"
         >
           <div className="skill">
@@ -69,7 +64,7 @@ const Skills = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          variants={rightanimation}
+          variants={leftanimation}
           className="skill"
         >
           <div className="skill">
@@ -81,7 +76,7 @@ const Skills = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          variants={rightanimation}
+          variants={leftanimation}
           className="skill"
         >
           <div className="skill">
