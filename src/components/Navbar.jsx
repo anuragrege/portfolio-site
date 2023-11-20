@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Navbar = () => {
   const navVariants = {
     hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { duration: 4 } },
+    visible: { opacity: 1, transition: { duration: 2 } },
   };
   return (
     <motion.div initial="hidden" animate="visible" variants={navVariants}>
