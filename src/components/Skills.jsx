@@ -80,8 +80,8 @@ const Skills = () => {
           className="skill"
         >
           <div className="skill">
-            <img src="/assets/icons/mongo.png" alt="Mongo" />
-            <p>MONGODB</p>
+            <img src="/assets/icons/framer.png" alt="Framer" />
+            <p>Framer Motion</p>
           </div>
         </motion.div>
 
