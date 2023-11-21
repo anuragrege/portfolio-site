@@ -27,7 +27,7 @@ const Home = () => {
         <div className="photo">
           <motion.div
             initial="hidden"
-            animate="visible"
+            whileInView="visible"
             variants={textVariants}
           >
             <img
@@ -40,7 +40,7 @@ const Home = () => {
         <div className="intro">
           <motion.div
             initial="hidden"
-            animate="visible"
+            whileInView="visible"
             variants={textVariants}
           >
             <h1>Welcome to My Portfolio</h1>
@@ -53,7 +53,7 @@ const Home = () => {
           </motion.div>
           <motion.div
             initial="hidden"
-            animate="visible"
+            whileInView="visible"
             variants={textVariants}
           >
             <a href="https://github.com/anuragrege" target="blank">
