@@ -26,7 +26,9 @@ const Academics = () => {
               </u>
               <p>First Semester: 9.68</p>
               <p>Second Semester: 9.72</p>
-              <p>Average CGPA: 9.70</p>
+              <p>Third Semester: 9.83</p>
+              <p>Fourth Semester: 9.60</p>
+              <p>Average CGPA: 9.71</p>
             </div>
           </motion.div>
         </div>
