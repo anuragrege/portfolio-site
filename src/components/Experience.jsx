@@ -139,8 +139,8 @@ const Experience = () => {
             <div className="experience-content">
               <h2>MLSA SRM</h2>
               <p>
-                Associate Technical Lead at Microsoft Learn Student Ambassadors
-                SRM, heading the Webdev Domain. Part of the core team.
+                Technical Lead at Microsoft Learn Student Ambassadors SRM,
+                heading the Webdev Domain. Part of the core team.
               </p>
               <p>SEPTEMBER 2023-Present</p>
               <a href="https://in.linkedin.com/company/mlsa-srm" target="blank">
@@ -148,6 +148,58 @@ const Experience = () => {
                   src="/assets/icons/mlsa.png"
                   className="expimg5"
                   alt="Experience 5"
+                />
+              </a>
+            </div>
+          </motion.div>
+        </div>
+
+        <div className="experience1">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            variants={rightanimation}
+            whileHover={{ scale: 1.03 }}
+          >
+            <div className="experience-content">
+              <h2>GrowBharat Technologies</h2>
+              <p>
+                Software Developer Intern @GrowBharat, collaborating on various
+                client websites which included working on Next.JS , Gatsby and
+                SEO.
+              </p>
+              <p>September 2024 - NOVEMBER 2024</p>
+              <a href="https://www.growbharat.tech/" target="blank">
+                <img
+                  src="/assets/icons/growbharat.jpg"
+                  className="expimg"
+                  alt="Experience 5"
+                />
+              </a>
+            </div>
+          </motion.div>
+        </div>
+
+        <div className="experience">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            variants={leftanimation}
+            whileHover={{ scale: 1.03 }}
+          >
+            <div className="experience-content">
+              <h2>IIT Gandhinagar</h2>
+              <p>
+                Research Intern at IITGN, Earth Sciences Department. Working
+                with Google Earth Engine, JavaScript, Python and Machine
+                Learning.
+              </p>
+              <p>DECEMBER 2024-Present</p>
+              <a href="" target="blank">
+                <img
+                  src="/assets/icons/iitgn.jpeg"
+                  className="expimg5"
+                  alt="Experience 6"
                 />
               </a>
             </div>
