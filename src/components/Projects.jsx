@@ -87,15 +87,55 @@ const Projects = () => {
           whileHover={{ scale: 1.03 }}
         >
           <div className="project">
-            <img src="/assets/img/dq1.png" alt="Project 4" />
-            <h3>DQCare Website</h3>
+            <img src="/assets/img/viands.png" alt="Project 4" />
+            <h3>Viands Gourmet Website</h3>
             <p>
-              Made this site during my internship at WictroniX. BUit in plain
-              HTML, CSS and JS, was my first major challenge in the world of
-              tech, gave me a lot of things to think upon and many bugs were
-              solved whose process I enjoyed.{" "}
+              Made the homepage of thi site during my internship at GrowBharat.
+              This site was a challenge as it had tight deadlines and a lot of
+              design methodology and quotient involved.{" "}
             </p>
-            <a href="https://dqcare.in" target="blank">
+            <a href="https://viandsgourmet.in" target="blank">
+              View Project
+            </a>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          variants={upanimation}
+          whileHover={{ scale: 1.03 }}
+        >
+          <div className="project">
+            <img src="/assets/img/aone.png" alt="Project 4" />
+            <h3>AoneCeramics Website</h3>
+            <p>
+              Made the catalogues page of AoneCeramics. Reduced customer costs
+              on displaying 13GB of product catalogues which used backend
+              services. Integrated dynamic filters and pagination.{" "}
+            </p>
+            <a href="https://www.aoneceramics.com/" target="blank">
+              View Project
+            </a>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          variants={upanimation}
+          whileHover={{ scale: 1.03 }}
+        >
+          <div className="project">
+            <img src="/assets/img/raj.png" alt="Project 4" />
+            <h3>Raj AutoLink Website</h3>
+            <p>
+              Integrated a highly dynamic template for a automobile exporter
+              client who needed the site developed in 2 days. Used a Next.JS
+              template, this was a new challenge as I had to analyse and modify
+              code which I had not written.{" "}
+            </p>
+            <a href="https://rajautolink.vercel.app" target="blank">
               View Project
             </a>
           </div>
