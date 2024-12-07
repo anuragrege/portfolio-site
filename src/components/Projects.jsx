@@ -87,6 +87,27 @@ const Projects = () => {
           whileHover={{ scale: 1.03 }}
         >
           <div className="project">
+            <img src="/assets/img/dq1.png" alt="Project 4" />
+            <h3>DQCare Website</h3>
+            <p>
+              Made this site during my internship at WictroniX. BUit in plain
+              HTML, CSS and JS, was my first major challenge in the world of
+              tech, gave me a lot of things to think upon and many bugs were
+              solved whose process I enjoyed.{" "}
+            </p>
+            <a href="https://dqcare.in" target="blank">
+              View Project
+            </a>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          variants={upanimation}
+          whileHover={{ scale: 1.03 }}
+        >
+          <div className="project">
             <img src="/assets/img/pps.png" alt="Project 4" />
             <h3>Timetable/Mess Menu Displayer</h3>
             <p>
