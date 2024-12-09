@@ -90,7 +90,7 @@ const Projects = () => {
             <img src="/assets/img/viands.png" alt="Project 4" />
             <h3>Viands Gourmet Website</h3>
             <p>
-              Made the homepage of thi site during my internship at GrowBharat.
+              Made the homepage of this site during my internship at GrowBharat.
               This site was a challenge as it had tight deadlines and a lot of
               design methodology and quotient involved.{" "}
             </p>

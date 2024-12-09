@@ -45,7 +45,7 @@ const Home = () => {
           >
             <h1>Welcome to My Portfolio</h1>
             <p>
-              Welcome to my digital realm. I'm a passionate web developer with a
+              Welcome to my digital realm. I'm a passionate individual with a
               love for crafting exceptional online experiences. Explore my work,
               discover my skills, and let's connect to bring your ideas to life
               in the digital world!

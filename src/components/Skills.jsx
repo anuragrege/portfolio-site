@@ -68,6 +68,42 @@ const Skills = () => {
           className="skill"
         >
           <div className="skill">
+            <img src="/assets/icons/nextjs.png" alt="React" />
+            <p>Next.JS</p>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          variants={leftanimation}
+          className="skill"
+        >
+          <div className="skill">
+            <img src="/assets/icons/gatsby.png" alt="React" />
+            <p>Gatsby</p>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          variants={leftanimation}
+          className="skill"
+        >
+          <div className="skill">
+            <img src="/assets/icons/gee.png" alt="React" />
+            <p>Earth Engine</p>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          variants={leftanimation}
+          className="skill"
+        >
+          <div className="skill">
             <img src="/assets/icons/gits.png" alt="Git" />
             <p>Git</p>
           </div>
