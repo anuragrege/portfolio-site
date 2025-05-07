@@ -148,16 +148,15 @@ const Projects = () => {
           whileHover={{ scale: 1.03 }}
         >
           <div className="project">
-            <img src="/assets/img/pps.png" alt="Project 4" />
-            <h3>Timetable/Mess Menu Displayer</h3>
+            <img src="/assets/img/sepm12.jpg" alt="Project 4" />
+            <h3>Face Liveness Authentication</h3>
             <p>
-              Me and my teammate made an application that displays the mess
-              menu, timetable of the students and thus calculates students' free
-              time based on various inputs. Just with a few clicks, the user can
-              easily see the timetable and the menu. This saves the user the
-              time to take out his batch timetable and match with his timetable.
-              It also enables the user to see the mess menu without requiring to
-              open his phone to see the photo captured of the menu.{" "}
+              This project focuses on real-time face liveness detection using
+              computer vision and AI. It differentiates between live faces and
+              spoofing attempts like photos or videos. The system enhances
+              biometric security in applications like authentication and access
+              control. Techniques include motion analysis, texture detection,
+              and deep learning models.{" "}
             </p>
             <a
               href="https://drive.google.com/file/d/1seD3vyo57U61rX4sYuL8DBFTcyEy5erv/view?usp=sharing"
