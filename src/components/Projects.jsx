@@ -156,7 +156,8 @@ const Projects = () => {
               spoofing attempts like photos or videos. The system enhances
               biometric security in applications like authentication and access
               control. Techniques include motion analysis, texture detection,
-              and deep learning models.{" "}
+              and deep learning models. This project was done in order to obtain
+              credit for the course SEPM - 21CSC303J in the 6th Semester.{" "}
             </p>
             <a
               href="https://drive.google.com/file/d/1seD3vyo57U61rX4sYuL8DBFTcyEy5erv/view?usp=sharing"
